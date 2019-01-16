@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace lego
 {
     static class Program
@@ -20,18 +21,4 @@ namespace lego
 
 
         }
-    }
-
-    public enum Robot_States
-    {
-        starting = 0,
-        lineFollowing,
-        grabbingObject,
-        rotating,
-        advancing,
-        deliveringObject,
-        retracting,
-        paused,
-        missionCompleted,
-    }
 }
